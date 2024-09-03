@@ -1,0 +1,11 @@
+spring.application.name: poweradmin-api
+server:
+  port: 8888
+  servlet:
+    encoding:
+      force: true # 强制覆盖charset
+      charset: UTF-8
+
+spring:
+  profiles:
+    active: prod
