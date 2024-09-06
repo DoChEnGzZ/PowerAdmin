@@ -1,6 +1,6 @@
 welcome:
   content: 'Welcome to the dev'
 
-spring:
-  config:
-    import: conf/dev/datasource.yml
+#spring:
+#  config:
+#    import: conf/dev/datasource.yml

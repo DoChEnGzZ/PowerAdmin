@@ -1,0 +1,144 @@
+2024-09-06T09:40:25.571+08:00  INFO 43354 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T09:40:25.600+08:00  INFO 43354 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 43354 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T09:40:25.600+08:00  INFO 43354 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T09:40:25.990+08:00  INFO 43354 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T09:40:25.995+08:00  INFO 43354 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T09:40:25.996+08:00  INFO 43354 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T09:40:25.996+08:00  INFO 43354 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T09:40:26.016+08:00  INFO 43354 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T09:40:26.016+08:00  INFO 43354 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 397 ms
+2024-09-06T09:40:26.120+08:00  INFO 43354 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-06T09:50:10.121+08:00  INFO 43567 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T09:50:10.149+08:00  INFO 43567 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 43567 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T09:50:10.150+08:00  INFO 43567 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T09:50:10.552+08:00  INFO 43567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T09:50:10.556+08:00  INFO 43567 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T09:50:10.558+08:00  INFO 43567 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T09:50:10.558+08:00  INFO 43567 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T09:50:10.577+08:00  INFO 43567 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T09:50:10.577+08:00  INFO 43567 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 407 ms
+2024-09-06T09:50:10.757+08:00  INFO 43567 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T09:50:10.764+08:00  INFO 43567 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T09:50:10.771+08:00  INFO 43567 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.881 seconds (process running for 1.141)
+2024-09-06T09:50:10.775+08:00  INFO 43567 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T09:50:18.719+08:00  INFO 43567 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T09:50:18.719+08:00  INFO 43567 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T09:50:18.720+08:00  INFO 43567 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T09:50:18.723+08:00  INFO 43567 --- [http-nio-8888-exec-2] c.c.p.infra.global.AccessFilter          : http_start|/
+2024-09-06T09:50:18.739+08:00  INFO 43567 --- [http-nio-8888-exec-2] c.c.p.controller.HomeController          : Welcome: Welcome to the dev
+2024-09-06T09:50:18.775+08:00  INFO 43567 --- [http-nio-8888-exec-2] c.c.p.infra.global.AccessFilter          : http_end|/|200|52
+2024-09-06T09:50:29.362+08:00  INFO 43567 --- [http-nio-8888-exec-3] c.c.p.infra.global.AccessFilter          : http_start|/system_error
+2024-09-06T09:50:29.368+08:00  INFO 43567 --- [http-nio-8888-exec-3] c.c.p.infra.global.AccessFilter          : http_end|/system_error|200|5
+2024-09-06T10:06:33.168+08:00  INFO 43707 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T10:06:33.186+08:00  INFO 43707 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 43707 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T10:06:33.187+08:00  INFO 43707 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T10:06:33.576+08:00  INFO 43707 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T10:06:33.580+08:00  INFO 43707 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:06:33.582+08:00  INFO 43707 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T10:06:33.582+08:00  INFO 43707 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T10:06:33.601+08:00  INFO 43707 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T10:06:33.601+08:00  INFO 43707 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 391 ms
+2024-09-06T10:06:33.770+08:00  INFO 43707 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:06:33.776+08:00  INFO 43707 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T10:06:33.784+08:00  INFO 43707 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.841 seconds (process running for 1.079)
+2024-09-06T10:06:33.787+08:00  INFO 43707 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T10:06:37.986+08:00  INFO 43707 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T10:06:37.986+08:00  INFO 43707 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T10:06:37.987+08:00  INFO 43707 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T10:06:37.989+08:00  INFO 43707 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_start|/system_error
+2024-09-06T10:06:38.022+08:00  INFO 43707 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_end|/system_error|406|33
+2024-09-06T10:15:16.187+08:00  INFO 43760 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T10:15:16.205+08:00  INFO 43760 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 43760 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T10:15:16.206+08:00  INFO 43760 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T10:15:16.567+08:00  INFO 43760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T10:15:16.575+08:00  INFO 43760 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:15:16.577+08:00  INFO 43760 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T10:15:16.577+08:00  INFO 43760 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T10:15:16.612+08:00  INFO 43760 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T10:15:16.612+08:00  INFO 43760 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 386 ms
+2024-09-06T10:15:16.827+08:00  INFO 43760 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:15:16.834+08:00  INFO 43760 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T10:15:16.842+08:00  INFO 43760 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.872 seconds (process running for 1.174)
+2024-09-06T10:15:16.845+08:00  INFO 43760 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T10:15:20.340+08:00  INFO 43760 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T10:15:20.340+08:00  INFO 43760 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T10:15:20.341+08:00  INFO 43760 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T10:15:20.343+08:00  INFO 43760 --- [http-nio-8888-exec-2] c.c.p.infra.global.AccessFilter          : http_start|/system_error
+2024-09-06T10:15:20.385+08:00  INFO 43760 --- [http-nio-8888-exec-2] c.c.p.infra.global.AccessFilter          : http_end|/system_error|200|42
+2024-09-06T10:15:37.689+08:00  INFO 43760 --- [http-nio-8888-exec-3] c.c.p.infra.global.AccessFilter          : http_start|/
+2024-09-06T10:15:37.692+08:00  INFO 43760 --- [http-nio-8888-exec-3] c.c.p.controller.HomeController          : Welcome: Welcome to the dev
+2024-09-06T10:15:37.695+08:00  INFO 43760 --- [http-nio-8888-exec-3] c.c.p.infra.global.AccessFilter          : http_end|/|200|5
+2024-09-06T10:18:33.891+08:00  INFO 43806 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T10:18:33.912+08:00  INFO 43806 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 43806 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T10:18:33.912+08:00  INFO 43806 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T10:18:34.274+08:00  INFO 43806 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T10:18:34.278+08:00  INFO 43806 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:18:34.280+08:00  INFO 43806 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T10:18:34.280+08:00  INFO 43806 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T10:18:34.299+08:00  INFO 43806 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T10:18:34.299+08:00  INFO 43806 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 372 ms
+2024-09-06T10:18:34.456+08:00  INFO 43806 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:18:34.464+08:00  INFO 43806 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T10:18:34.473+08:00  INFO 43806 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.788 seconds (process running for 1.001)
+2024-09-06T10:18:34.476+08:00  INFO 43806 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T10:18:38.865+08:00  INFO 43806 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T10:18:38.865+08:00  INFO 43806 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T10:18:38.874+08:00  INFO 43806 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2024-09-06T10:18:38.876+08:00  INFO 43806 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_start|/
+2024-09-06T10:18:38.889+08:00  INFO 43806 --- [http-nio-8888-exec-1] c.c.p.controller.HomeController          : Welcome: Welcome to the dev
+2024-09-06T10:18:38.917+08:00  INFO 43806 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_end|/|200|41
+2024-09-06T10:18:51.204+08:00  INFO 43828 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T10:18:51.222+08:00  INFO 43828 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 43828 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T10:18:51.223+08:00  INFO 43828 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T10:18:51.588+08:00  INFO 43828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T10:18:51.592+08:00  INFO 43828 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:18:51.594+08:00  INFO 43828 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T10:18:51.594+08:00  INFO 43828 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T10:18:51.612+08:00  INFO 43828 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T10:18:51.612+08:00  INFO 43828 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 374 ms
+2024-09-06T10:18:51.775+08:00  INFO 43828 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:18:51.783+08:00  INFO 43828 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T10:18:51.792+08:00  INFO 43828 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.792 seconds (process running for 1.04)
+2024-09-06T10:18:51.795+08:00  INFO 43828 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T10:18:55.014+08:00  INFO 43828 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T10:18:55.014+08:00  INFO 43828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T10:18:55.015+08:00  INFO 43828 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T10:18:55.017+08:00  INFO 43828 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_start|/
+2024-09-06T10:18:55.029+08:00  INFO 43828 --- [http-nio-8888-exec-1] c.c.p.controller.HomeController          : Welcome: Welcome to the dev
+2024-09-06T10:18:55.053+08:00  INFO 43828 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_end|/|200|36
+2024-09-06T10:44:49.000+08:00  INFO 44086 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T10:44:49.020+08:00  INFO 44086 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 44086 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T10:44:49.021+08:00  INFO 44086 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T10:44:49.390+08:00  INFO 44086 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T10:44:49.394+08:00  INFO 44086 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:44:49.395+08:00  INFO 44086 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T10:44:49.395+08:00  INFO 44086 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T10:44:49.414+08:00  INFO 44086 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T10:44:49.415+08:00  INFO 44086 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 379 ms
+2024-09-06T10:44:49.583+08:00  INFO 44086 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T10:44:49.595+08:00  INFO 44086 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T10:44:49.602+08:00  INFO 44086 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.815 seconds (process running for 1.035)
+2024-09-06T10:44:49.624+08:00  INFO 44086 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T10:45:10.890+08:00  INFO 44086 --- [http-nio-8888-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T10:45:10.891+08:00  INFO 44086 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T10:45:10.892+08:00  INFO 44086 --- [http-nio-8888-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T10:45:10.894+08:00  INFO 44086 --- [http-nio-8888-exec-2] c.c.p.infra.global.AccessFilter          : http_start|/business_error
+2024-09-06T10:45:10.946+08:00  INFO 44086 --- [http-nio-8888-exec-2] c.c.p.infra.global.AccessFilter          : http_end|/business_error|200|52
+2024-09-06T11:04:21.751+08:00  INFO 44561 --- [background-preinit] o.h.validator.internal.util.Version      : HV000001: Hibernate Validator 8.0.1.Final
+2024-09-06T11:04:21.788+08:00  INFO 44561 --- [main] c.c.p.PoweradminApiApplication           : Starting PoweradminApiApplication using Java 17 with PID 44561 (/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes started by dochengzz in /Users/dochengzz/IdeaProjects/PowerAdmin/Api)
+2024-09-06T11:04:21.789+08:00  INFO 44561 --- [main] c.c.p.PoweradminApiApplication           : The following 1 profile is active: "dev"
+2024-09-06T11:04:22.156+08:00  INFO 44561 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8888 (http)
+2024-09-06T11:04:22.161+08:00  INFO 44561 --- [main] o.a.coyote.http11.Http11NioProtocol      : Initializing ProtocolHandler ["http-nio-8888"]
+2024-09-06T11:04:22.162+08:00  INFO 44561 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-06T11:04:22.162+08:00  INFO 44561 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-06T11:04:22.181+08:00  INFO 44561 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-06T11:04:22.181+08:00  INFO 44561 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 377 ms
+2024-09-06T11:04:22.344+08:00  INFO 44561 --- [main] o.a.coyote.http11.Http11NioProtocol      : Starting ProtocolHandler ["http-nio-8888"]
+2024-09-06T11:04:22.352+08:00  INFO 44561 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8888 (http) with context path ''
+2024-09-06T11:04:22.360+08:00  INFO 44561 --- [main] c.c.p.PoweradminApiApplication           : Started PoweradminApiApplication in 0.806 seconds (process running for 1.056)
+2024-09-06T11:04:22.363+08:00  INFO 44561 --- [main] c.c.p.PoweradminApiApplication           : Active Profiles [dev]
+2024-09-06T11:04:28.711+08:00  INFO 44561 --- [http-nio-8888-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-06T11:04:28.711+08:00  INFO 44561 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-09-06T11:04:28.712+08:00  INFO 44561 --- [http-nio-8888-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-09-06T11:04:28.714+08:00  INFO 44561 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_start|/business_error
+2024-09-06T11:04:28.760+08:00  INFO 44561 --- [http-nio-8888-exec-1] c.c.p.infra.global.AccessFilter          : http_end|/business_error|200|46

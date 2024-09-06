@@ -8,4 +8,10 @@ server:
 
 spring:
   profiles:
-    active: prod
+    active: dev
+
+logging:
+  file:
+    path: logs
+  level:
+    root: debug
