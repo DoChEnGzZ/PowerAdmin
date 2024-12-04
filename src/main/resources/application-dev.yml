@@ -1,6 +1,10 @@
 welcome:
   content: 'Welcome to the dev'
 
-#spring:
-#  config:
-#    import: conf/dev/datasource.yml
+spring:
+  config:
+    import: conf/dev/datasource.yml
+
+jwt:
+  secret: EJogTbY8zF5ANCWy8oxpJaqAbs6t5ZE4bGjxgO5hxfXmKUn3enqBX7jifUgfV5Z0
+  expire-minutes: 14400

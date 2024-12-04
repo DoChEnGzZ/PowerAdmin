@@ -1,10 +1,10 @@
 package com.chengnianzhi.poweradmin_api.utils;
 
 import com.chengnianzhi.poweradmin_api.constant.HttpHeader;
-import jakarta.servlet.http.HttpServletRequest;
 import org.apache.logging.log4j.util.Strings;
 import org.springframework.web.util.ContentCachingRequestWrapper;
 
+import javax.servlet.http.HttpServletRequest;
 import java.io.UnsupportedEncodingException;
 import java.util.UUID;
 
