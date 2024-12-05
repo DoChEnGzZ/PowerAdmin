@@ -5,3 +5,119 @@
 2024-12-04T10:35:20.161+08:00  WARN 35376 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/controller/UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/repository/UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/chengnianzhi/poweradmin_api/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/mapper/user/user_mapper.xml]'
 2024-12-04T10:44:17.595+08:00  WARN 35525 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/controller/UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/repository/UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/chengnianzhi/poweradmin_api/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/mapper/user/user_mapper.xml]'
 2024-12-04T10:44:49.869+08:00  WARN 35567 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/controller/UserController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'baseMapper'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userMapper' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/repository/UserMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [com/chengnianzhi/poweradmin_api/config/MybatisPlusConfig.class]: Bean instantiation via factory method failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.apache.ibatis.session.SqlSessionFactory]: Factory method 'sqlSessionFactory' threw exception; nested exception is java.io.IOException: Failed to parse mapping resource: 'file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/mapper/user/user_mapper.xml]'
+2024-12-04T14:28:22.870+08:00  WARN 38594 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 67af21f9-dbf1-4a30-ae66-c6c9eb8a559e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T14:41:15.035+08:00  WARN 39089 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userController' defined in file [/Users/dochengzz/IdeaProjects/PowerAdmin/Api/target/classes/com/chengnianzhi/poweradmin_api/controller/user/UserController.class]: Unsatisfied dependency expressed through constructor parameter 1; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.chengnianzhi.poweradmin_api.service.token.TokenService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-12-04T14:42:19.155+08:00  WARN 39145 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3d1ff070-824e-4e61-84f2-589ba00bab98
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T14:49:07.017+08:00  WARN 39436 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 463958de-2053-4967-87c3-b69ae8902338
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T14:49:07.062+08:00  WARN 39436 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/*']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-12-04T14:49:14.322+08:00  WARN 39436 --- [http-nio-8888-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-12-04T15:36:21.622+08:00  WARN 41072 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6a483163-a12c-413f-8ac6-12297d394565
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T15:36:21.757+08:00  WARN 41072 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/*']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-12-04T15:43:13.345+08:00  WARN 41309 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 34708b48-2df4-440c-816b-21b892ab5f50
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T15:43:13.490+08:00  WARN 41309 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/*']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-12-04T15:47:41.418+08:00  WARN 41479 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 697f33e1-8a00-4b3f-98ac-d80756f047a8
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T15:47:41.553+08:00  WARN 41479 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/*']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-12-04T15:57:06.875+08:00  WARN 41739 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: fd145b69-b689-4b83-9e52-cd9ab9b5e486
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T15:57:07.010+08:00  WARN 41739 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/*']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-12-04T16:23:29.993+08:00  WARN 42436 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 2f24d620-89e4-46fe-9a27-dbaf3450028b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:23:30.122+08:00  WARN 42436 --- [main] o.s.s.c.a.web.builders.WebSecurity       : You are asking Spring Security to ignore Ant [pattern='/*']. This is not recommended -- please use permitAll via HttpSecurity#authorizeHttpRequests instead.
+2024-12-04T16:30:07.199+08:00  WARN 42690 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ca33ba62-fe9d-41e5-a133-8f8c197f9391
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:32:35.115+08:00  WARN 42777 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c66ecd7d-6d35-4b94-b677-40dc86d1194e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:47:22.264+08:00  WARN 43321 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 82d461fa-841b-49bd-90c3-2766099a4c57
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:50:13.227+08:00  WARN 43439 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5bc632ad-ed36-42d6-b199-42b61fbeac1c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:56:33.389+08:00  WARN 43671 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9eccc147-7151-4af1-bf16-e3568bf1f93a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:58:03.830+08:00  WARN 43735 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1012068a-817a-4525-8663-8312578c0260
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T16:58:09.559+08:00  WARN 43744 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 9f6bec11-f514-4abe-991f-5fbe7c14d78a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T17:00:35.477+08:00  WARN 43838 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d1aa60e1-5f09-45aa-9e71-7078f286922a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T17:04:17.094+08:00  WARN 43964 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 65834036-3c66-46be-bbcc-29d2480665e9
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-04T17:04:19.975+08:00  WARN 43974 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cdad1668-ef05-406e-9c53-4eae8dfbf27b
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
