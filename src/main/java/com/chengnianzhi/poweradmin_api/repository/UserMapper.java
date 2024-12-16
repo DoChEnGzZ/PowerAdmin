@@ -9,5 +9,6 @@ import org.springframework.stereotype.Component;
 @Mapper
 public interface UserMapper extends BaseMapper<UserEntity> {
     UserEntity getByUsername(String username);
+    UserEntity getByUid(Long uid);
 }
 

@@ -4,6 +4,11 @@ welcome:
 spring:
   config:
     import: conf/dev/datasource.yml
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+
 
 jwt:
   secret: EJogTbY8zF5ANCWy8oxpJaqAbs6t5ZE4bGjxgO5hxfXmKUn3enqBX7jifUgfV5Z0

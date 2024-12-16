@@ -1,10 +1,7 @@
 package com.chengnianzhi.poweradmin_api.service.user;
 
 import com.chengnianzhi.poweradmin_api.dto.RespDto;
-import com.chengnianzhi.poweradmin_api.dto.user.UserFullInfoDTO;
-import com.chengnianzhi.poweradmin_api.dto.user.UserLoginDetails;
-import com.chengnianzhi.poweradmin_api.dto.user.UserLoginDto;
-import com.chengnianzhi.poweradmin_api.dto.user.UserLoginReq;
+import com.chengnianzhi.poweradmin_api.dto.user.*;
 import com.chengnianzhi.poweradmin_api.infra.errorcode.SystemErrorCode;
 import com.chengnianzhi.poweradmin_api.infra.exception.BusinessException;
 import com.chengnianzhi.poweradmin_api.service.BaseService;
@@ -47,5 +44,24 @@ public class UserService extends BaseService<UserMapper, UserEntity> {
         } else {
             return RespDto.error(SystemErrorCode.USER_PASSWD_ERROR);
         }
+    }
+
+    public RespDto<UserRegisterDto> register(UserRegisterReq req) {
+        // 判断用户是否已注册
+        if (getBaseMapper().getByUsername(req.getUsername()) != null) {
+            return RespDto.error(SystemErrorCode.USER_EXIST);
+        }
+        // 创建新用户
+        UserEntity user = new UserEntity();
+        user.setUsername(req.getUsername());
+        user.setPassword(BcryptUtils.encode(req.getPassword()));
+        user.setNickName(req.getNickName());
+        user.setDisabled(false);
+        if (getBaseMapper().insert(user) != 1) {
+            return RespDto.error(SystemErrorCode.REGISTER_FAILED);
+        }
+        var resp = new UserRegisterDto();
+        resp.fill(user);
+        return RespDto.ok(resp);
     }
 }

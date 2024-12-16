@@ -15,8 +15,9 @@ public enum SystemErrorCode implements ErrorCode{
     INVALID_TOKEN(10006, "您还未登录或登录失效，请重新登录！"),
     USER_STATUS_ERROR(10007, "用户状态异常"),
     FORM_REPEAT_SUBMIT(10008, "请勿重复提交"),
-    USER_PASSWD_ERROR(10009, "用户名或密码错误");
-
+    USER_PASSWD_ERROR(10009, "用户名或密码错误"),
+    USER_EXIST(10010, "用户已存在"),
+    REGISTER_FAILED(10011, "注册失败");
     private final int code;
 
     private final String msg;

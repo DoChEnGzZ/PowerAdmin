@@ -1,10 +1,7 @@
 package com.chengnianzhi.poweradmin_api.controller.user;
 
 import com.chengnianzhi.poweradmin_api.dto.RespDto;
-import com.chengnianzhi.poweradmin_api.dto.user.UserFullInfoDTO;
-import com.chengnianzhi.poweradmin_api.dto.user.UserLoginDetails;
-import com.chengnianzhi.poweradmin_api.dto.user.UserLoginDto;
-import com.chengnianzhi.poweradmin_api.dto.user.UserLoginReq;
+import com.chengnianzhi.poweradmin_api.dto.user.*;
 import com.chengnianzhi.poweradmin_api.service.token.TokenService;
 import com.chengnianzhi.poweradmin_api.service.user.UserService;
 import org.springframework.web.bind.annotation.*;
@@ -34,6 +31,16 @@ public class UserController {
             var token = tokenService.createToken(userInfo.getUid(), userInfo.getUsername());
             userInfo.setToken(token);
             return RespDto.ok(userInfo);
+        }
+    }
+
+    @PostMapping("/register")
+    public RespDto<UserRegisterDto> register(@RequestBody UserRegisterReq req) {
+        RespDto<UserRegisterDto> resp = userService.register(req);
+        if (resp.notOk()) {
+            return resp.copyError();
+        } else {
+            return RespDto.ok(resp.getData());
         }
     }
 
