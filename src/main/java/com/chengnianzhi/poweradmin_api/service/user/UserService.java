@@ -15,7 +15,8 @@ import com.chengnianzhi.poweradmin_api.repository.UserMapper;
 @Service
 public class UserService extends BaseService<UserMapper, UserEntity> {
     public RespDto<UserFullInfoDTO> getUserData(Long uid) {
-        UserEntity userEntity = getById(uid);
+//        UserEntity userEntity = getById(uid);
+        UserEntity userEntity = getBaseMapper().getByUid(uid);
         if (userEntity == null) {
             return RespDto.errorMsg(SystemErrorCode.DATA_NOT_EXIST, "用户不存在");
         } else {

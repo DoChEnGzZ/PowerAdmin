@@ -1,22 +1,250 @@
-2024-12-06T14:38:34.686+08:00  WARN 70262 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-06T14:38:35.661+08:00  WARN 70262 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
-2024-12-06T14:38:35.702+08:00  WARN 70262 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+2024-12-18T09:10:14.030+08:00  WARN 90708 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T09:10:14.988+08:00  WARN 90708 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T09:10:15.018+08:00  WARN 90708 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
 
-Using generated security password: d11315ed-af5a-4bac-bcff-da7df7d6e9c9
-
-This generated password is for development use only. Your security configuration must be updated before running your application in production.
-
-2024-12-06T14:38:45.571+08:00  WARN 70262 --- [http-nio-8888-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2024-12-06T14:39:31.600+08:00  WARN 70262 --- [http-nio-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2024-12-06T14:42:43.186+08:00  WARN 70262 --- [http-nio-8888-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
-2024-12-06T14:46:19.995+08:00  WARN 70262 --- [http-nio-8888-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.chengnianzhi.poweradmin_api.dto.RespDto<com.chengnianzhi.poweradmin_api.dto.auth.PermissionListDto> com.chengnianzhi.poweradmin_api.controller.PermissionController.getPermissionList(com.chengnianzhi.poweradmin_api.dto.auth.PermissionQueryReq)]
-2024-12-06T14:47:09.809+08:00  WARN 70262 --- [http-nio-8888-exec-10] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @7880cdf3
-2024-12-06T14:48:43.572+08:00  WARN 70689 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2024-12-06T14:48:44.811+08:00  WARN 70689 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
-2024-12-06T14:48:44.844+08:00  WARN 70689 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
-
-Using generated security password: b33e5303-43e1-4a16-90ea-a8b370b75f05
+Using generated security password: e94e22a7-6c29-46fe-8bc0-218dbb504607
 
 This generated password is for development use only. Your security configuration must be updated before running your application in production.
 
-2024-12-06T14:53:12.503+08:00  WARN 70689 --- [http-nio-8888-exec-2] c.b.m.c.t.support.ReflectLambdaMeta      : Unable to make field private final java.lang.Class java.lang.invoke.SerializedLambda.capturingClass accessible: module java.base does not "opens java.lang.invoke" to unnamed module @13e39c73
+2024-12-18T09:13:45.952+08:00  WARN 90847 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T09:13:46.826+08:00  WARN 90847 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T09:13:46.867+08:00  WARN 90847 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ae0c5013-d931-4d16-9d62-8fb2984c7c33
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T09:14:28.982+08:00  WARN 90881 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T09:14:29.873+08:00  WARN 90881 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T09:14:29.912+08:00  WARN 90881 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: da62757a-f439-492b-8958-f4d47f18fd8e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T09:14:58.455+08:00  WARN 90909 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T09:14:59.361+08:00  WARN 90909 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T09:14:59.394+08:00  WARN 90909 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 7fc7b763-795f-4f10-9fd1-9e8d0e63bdc2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:10:55.714+08:00  WARN 90909 --- [http-nio-8888-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2024-12-18T10:11:01.196+08:00  WARN 90909 --- [http-nio-8888-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.chengnianzhi.poweradmin_api.dto.RespDto<com.chengnianzhi.poweradmin_api.dto.user.UserLoginDto> com.chengnianzhi.poweradmin_api.controller.user.UserController.login(com.chengnianzhi.poweradmin_api.dto.user.UserLoginReq)]
+2024-12-18T10:14:30.386+08:00  WARN 92971 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:14:31.394+08:00  WARN 92971 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:14:31.432+08:00  WARN 92971 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 8175e6b0-b0d6-49b9-9d6c-706dd05aacf2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:15:12.087+08:00  WARN 93006 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:15:12.964+08:00  WARN 93006 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:15:12.996+08:00  WARN 93006 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bab84c0d-ab29-4e7e-9d60-85166be281d3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:15:36.593+08:00  WARN 93022 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:15:37.450+08:00  WARN 93022 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:15:37.490+08:00  WARN 93022 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 77c15371-9fdb-4b42-9821-5898bd4a7abb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:22:01.858+08:00  WARN 93246 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:22:02.732+08:00  WARN 93246 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:22:02.764+08:00  WARN 93246 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3afae798-fde3-449a-b051-6a41a8a1cfdc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:26:03.418+08:00  WARN 93400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:26:05.953+08:00  WARN 93400 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:26:05.986+08:00  WARN 93400 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d53799ba-3b6e-4f62-90b2-18a8f744c0cb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:26:59.363+08:00  WARN 93436 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:27:00.258+08:00  WARN 93436 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:27:00.302+08:00  WARN 93436 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0e91c9ec-c11e-4d8c-830b-82f04bd20499
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:27:06.580+08:00  WARN 93449 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:27:07.444+08:00  WARN 93449 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:27:07.476+08:00  WARN 93449 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bce3d612-4a99-4b0f-a411-7179a72dc96c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:27:25.576+08:00  WARN 93449 --- [http-nio-8888-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required request parameter 'uid' for method parameter type Long is not present]
+2024-12-18T10:28:22.668+08:00  WARN 93506 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:28:23.681+08:00  WARN 93506 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:28:23.716+08:00  WARN 93506 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c1580be5-a9d8-4d96-9baa-4a8d64addb90
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:30:46.783+08:00  WARN 93598 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:30:47.665+08:00  WARN 93598 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:30:47.701+08:00  WARN 93598 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b8737203-abf6-4ebf-992e-e2ba7f63c9c7
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:32:53.261+08:00  WARN 93678 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:32:54.182+08:00  WARN 93678 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:32:54.213+08:00  WARN 93678 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 04e8bf6b-9234-4927-8100-9b77d9e6d063
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:34:43.885+08:00  WARN 93764 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:34:44.777+08:00  WARN 93764 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:34:44.808+08:00  WARN 93764 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: df8cd456-7588-48d8-9ff6-84ff3a7017b6
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:37:45.559+08:00  WARN 93923 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:37:46.553+08:00  WARN 93923 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:37:46.590+08:00  WARN 93923 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ae6f6782-7b7d-43eb-bee7-f2fbaf3d0106
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:41:19.669+08:00  WARN 93923 --- [http-nio-8888-exec-6] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.chengnianzhi.poweradmin_api.dto.RespDto<com.chengnianzhi.poweradmin_api.dto.user.UserLoginDto> com.chengnianzhi.poweradmin_api.controller.user.UserController.login(com.chengnianzhi.poweradmin_api.dto.user.UserLoginReq)]
+2024-12-18T10:47:24.370+08:00  WARN 94289 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:47:25.238+08:00  WARN 94289 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:47:25.273+08:00  WARN 94289 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: db7843ac-0544-4d59-8fea-94457f733ad0
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:49:52.546+08:00  WARN 94374 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:49:53.420+08:00  WARN 94374 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:49:53.455+08:00  WARN 94374 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 1c78f6e6-b077-4ea8-979b-8f0331b74531
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:50:04.586+08:00  WARN 94389 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:50:05.477+08:00  WARN 94389 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:50:05.514+08:00  WARN 94389 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 12e109ef-5cb3-473a-ae8d-432145a941bb
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:56:27.522+08:00  WARN 94634 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:56:28.465+08:00  WARN 94634 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:56:28.499+08:00  WARN 94634 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5950b123-68bb-4ae9-9a4b-18b8c38ffc2c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T10:58:39.668+08:00  WARN 94722 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T10:58:40.528+08:00  WARN 94722 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T10:58:40.566+08:00  WARN 94722 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0c38c1b0-d041-43d0-9059-240381085dba
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:05:40.064+08:00  WARN 94992 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:05:40.968+08:00  WARN 94992 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:05:41.019+08:00  WARN 94992 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 5a1c25c3-ccd9-4be5-b173-647f19028fdc
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:06:01.672+08:00  WARN 95012 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:06:02.536+08:00  WARN 95012 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:06:02.577+08:00  WARN 95012 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: eee80157-bdd9-4a27-b86e-97b4abda06c5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:08:45.791+08:00  WARN 95127 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:08:46.736+08:00  WARN 95127 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:08:46.764+08:00  WARN 95127 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c13c3f11-4534-4925-887c-23c2c1902cd4
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:10:02.608+08:00  WARN 95190 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:10:03.738+08:00  WARN 95190 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:10:03.771+08:00  WARN 95190 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 79fe16ce-119f-413e-8e4e-874bbfe9b098
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:12:08.016+08:00  WARN 95282 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:12:08.876+08:00  WARN 95282 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:12:08.909+08:00  WARN 95282 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: bfdb1f24-40d7-4f6f-8671-d5491cd2ca66
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:17:51.178+08:00  WARN 95477 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:17:52.075+08:00  WARN 95477 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:17:52.107+08:00  WARN 95477 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: ce7a4442-6813-4fd7-8ef8-2f9560457d0d
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:18:56.557+08:00  WARN 95527 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:18:57.444+08:00  WARN 95527 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:18:57.483+08:00  WARN 95527 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: c1f13a43-d6ea-4256-99a3-c70662601ee5
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T11:19:30.619+08:00  WARN 95555 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T11:19:31.592+08:00  WARN 95555 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T11:19:31.630+08:00  WARN 95555 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3f5855e7-9d12-45d3-8456-d79548bc3536
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T13:52:42.734+08:00  WARN 96048 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-18T13:52:43.644+08:00  WARN 96048 --- [main] c.b.m.core.metadata.TableInfoHelper      : This primary key of "id" is primitive !不建议如此请使用包装类 in Class: "com.chengnianzhi.poweradmin_api.entity.PermissionEntity"
+2024-12-18T13:52:43.678+08:00  WARN 96048 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: def3335f-39b5-40ba-95e7-10887516e1a1
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2024-12-18T14:18:18.431+08:00  WARN 97972 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chengnianzhi.poweradmin_api.PoweradminApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'permissionController' for bean class [com.chengnianzhi.poweradmin_api.controller.permission.PermissionController] conflicts with existing, non-compatible bean definition of same name and class [com.chengnianzhi.poweradmin_api.controller.PermissionController]
+2024-12-18T14:18:53.251+08:00  WARN 98000 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chengnianzhi.poweradmin_api.PoweradminApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'permissionController' for bean class [com.chengnianzhi.poweradmin_api.controller.permission.PermissionController] conflicts with existing, non-compatible bean definition of same name and class [com.chengnianzhi.poweradmin_api.controller.PermissionController]
+2024-12-18T14:22:09.818+08:00  WARN 98133 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chengnianzhi.poweradmin_api.PoweradminApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'permissionController' for bean class [com.chengnianzhi.poweradmin_api.controller.permission.PermissionController] conflicts with existing, non-compatible bean definition of same name and class [com.chengnianzhi.poweradmin_api.controller.PermissionController]
+2024-12-18T14:27:15.506+08:00  WARN 98348 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chengnianzhi.poweradmin_api.PoweradminApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'permissionController' for bean class [com.chengnianzhi.poweradmin_api.controller.permission.PermissionController] conflicts with existing, non-compatible bean definition of same name and class [com.chengnianzhi.poweradmin_api.controller.PermissionController]
+2024-12-18T14:28:28.826+08:00  WARN 98849 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chengnianzhi.poweradmin_api.PoweradminApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'permissionController' for bean class [com.chengnianzhi.poweradmin_api.controller.permission.PermissionController] conflicts with existing, non-compatible bean definition of same name and class [com.chengnianzhi.poweradmin_api.controller.PermissionController]
+2024-12-18T14:55:19.028+08:00  WARN 1103 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.chengnianzhi.poweradmin_api.PoweradminApiApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'permissionController' for bean class [com.chengnianzhi.poweradmin_api.controller.permission.PermissionController] conflicts with existing, non-compatible bean definition of same name and class [com.chengnianzhi.poweradmin_api.controller.PermissionController]

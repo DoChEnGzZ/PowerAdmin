@@ -17,7 +17,8 @@ public enum SystemErrorCode implements ErrorCode{
     FORM_REPEAT_SUBMIT(10008, "请勿重复提交"),
     USER_PASSWD_ERROR(10009, "用户名或密码错误"),
     USER_EXIST(10010, "用户已存在"),
-    REGISTER_FAILED(10011, "注册失败");
+    REGISTER_FAILED(10011, "注册失败"),
+    ROLE_NOT_EXIST(10012, "角色不存在");
     private final int code;
 
     private final String msg;

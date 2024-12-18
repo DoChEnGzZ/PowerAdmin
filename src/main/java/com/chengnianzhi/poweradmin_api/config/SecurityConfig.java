@@ -45,6 +45,7 @@ public class SecurityConfig {
         http.authorizeHttpRequests((requests) -> requests
                 .antMatchers("/login").permitAll() // 要赋予匿名访问权限，否则无法获取token
                 .antMatchers("/register").permitAll()
+                .antMatchers("/roles/get").permitAll()
                 .anyRequest().authenticated());
         // 默认是内部Forward到/error，对于API不是好的方式，这里自定义一个错误处理机制。
         http.exceptionHandling(exceptionHandling ->

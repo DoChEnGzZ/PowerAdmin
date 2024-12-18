@@ -1,4 +1,4 @@
-package com.chengnianzhi.poweradmin_api.dto.auth;
+package com.chengnianzhi.poweradmin_api.dto.auth.Permission;
 
 import com.chengnianzhi.poweradmin_api.constant.ModuleName;
 import com.chengnianzhi.poweradmin_api.constant.PermissionType;

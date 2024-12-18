@@ -9,6 +9,10 @@ spring:
       naming:
         physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
 
+logging:
+  level:
+    org.springframework.web.servlet.mvc.method.annotation: DEBUG
+    org.springframework.web.servlet.handler: DEBUG
 
 jwt:
   secret: EJogTbY8zF5ANCWy8oxpJaqAbs6t5ZE4bGjxgO5hxfXmKUn3enqBX7jifUgfV5Z0

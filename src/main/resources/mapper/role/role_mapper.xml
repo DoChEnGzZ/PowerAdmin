@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.chengnianzhi.poweradmin_api.repository.RoleMapperr">
+    <insert id="AddRole"  useGeneratedKeys="true" parameterType="com.chengnianzhi.poweradmin_api.entity.Role">
+        INSERT INTO role (name, description, create_time, update_time)
+        VALUES (#{name}, #{description}, NOW(), NOW())
+    </insert>
+    <update id="UpdateRole" parameterType="com.chengnianzhi.poweradmin_api.entity.Role">
+        UPDATE role
+        <set>
+            <if test="name != null">
+                name = #{name},
+            </if>
+            <if test="description !=null">
+                description = #{description},
+            </if>
+            update_time = NOW()
+        </set>
+        WHERE id = #{id}
+    </update>
+    <select id="GetRoleById" resultType="com.chengnianzhi.poweradmin_api.entity.Role">
+        SELECT *
+        FROM role
+        WHERE id = #{id}
+    </select>
+</mapper>

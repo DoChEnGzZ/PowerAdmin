@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.web.servlet.error.ErrorMvcAutoConfiguration;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 
 import java.util.Arrays;
 
@@ -20,16 +21,16 @@ public class PoweradminApiApplication {
 		SpringApplication.run(PoweradminApiApplication.class, args);
 	}
 
-//	@Bean
-//	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
-//		return args -> {
-//			log.debug("Let's inspect the beans provided by Spring Boot:");
-//			String[] beanNames = ctx.getBeanDefinitionNames();
-////			for (String beanName : beanNames) {
-////				log.debug("Bean: {}", beanName);
-////			}
-//			log.info("Active Profiles {}", Arrays.toString(ctx.getEnvironment().getActiveProfiles()));
-//		};
-//	}
+	@Bean
+	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
+		return args -> {
+			log.debug("Let's inspect the beans provided by Spring Boot:");
+			String[] beanNames = ctx.getBeanDefinitionNames();
+			for (String beanName : beanNames) {
+				log.debug("Bean: {}", beanName);
+			}
+			log.info("Active Profiles {}", Arrays.toString(ctx.getEnvironment().getActiveProfiles()));
+		};
+	}
 
 }
